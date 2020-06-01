@@ -1,0 +1,85 @@
+.App {
+  height: 12vmin;
+  text-align: center;
+}
+
+.App-logo {
+  height: 12vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(25, 75, 212);
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: #000;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.product-container{
+  display: flex;
+  flex-direction: column;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.imgContentBox{
+	position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+.postDetailBox {
+    bottom: 0px;
+    left: 0;
+    background-color: #ccc;
+    border-top: 1px solid #888888;
+    width: 100%;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 400;
+    min-height: 100px;
+}
+.postDetailBox p{
+  padding-left: 10px;
+  font-size: small;
+  color: grey;
+  margin-bottom: 0%;
+  padding-top:5px;
+}
+
+.postImg{
+  height: 280px;
+  width: 100%;
+}
+.Caption{
+  font-size:medium;
+  color:#000;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-top:10px;
+}
+.cartcounter{
+  background: blue;
+}
