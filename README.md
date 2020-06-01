@@ -4,7 +4,7 @@
   
 ### Deployment
 * Deployed on AWS-Lightsail
-* hrough url: http://18.212.41.122/
+* hrough url: http://app.18.212.41.122.xip.io/
 
 
 ### Instruction to run backend
